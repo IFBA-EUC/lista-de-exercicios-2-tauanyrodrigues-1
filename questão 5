@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ques05t {
+
+    public static void main(String[] args) {
+    
+       int v;
+       Scanner teclado = new Scanner(System.in);
+        System.out.println("digite v; ");
+        v=teclado.nextInt();
+        for (int a = 0; a < 10; a++) {
+            System.out.println(v + " x " + a + " = " + (v*a));
+        }
+             
+              
+    }
+    
+}
