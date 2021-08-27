@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+ public class questao04 {
+   public static void main(String args[]) {     
+   
+   String nome;
+   float preço;
+   int quantidade;
+   
+   Scanner digite = new Scanner(System.in); 
+  
+  System.out.println("digite o nome do produto");
+   nome = digite.next ();
+   System.out.println("digite a quantidade do produto");
+   quantidade = digite.nextInt();
+   System.out.println("digite o preço do produto");
+   preço = digite.nextDouble();
+   
+   vf = preço * quantidade
+
+   if (quantidade <= 10) {
+     preço = preço * quantidade;
+}  else if (quantidade <= 20) {
+     preço = (preço * quantidade) - ((preço * quantidade)/ 10);
+}  else if (quantidade <= 50) {
+     preço = (preço * quantidade) - ((preço * quantidade)/ 20);
+}  else {
+     preço = (preço * quantidade) / 2; 
+   }
+   System.out.println("produto:" + nome);
+   System.out.println("total:" + preço);
+  }
+ }
