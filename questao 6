@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class questao06d {
+	}
+  
+	public static void main(String[] args) {
+  Scanner leitor = new Scanner (System.in)
+		System.out.println (qtdDigitos (1));
+		System.out.println (qtdDigitos (20));
+		System.out.println (qtdDigitos (300)); 
+		System.out.println (qtdDigitos (4000));
+		System.out.println (qtdDigitos (50000));
+		//                             
+		
+	}
+}
